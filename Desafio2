@@ -1,9 +1,0 @@
-var buttonElement = document.createElement('button');
-buttonElement.setAttribute('button', 'Me pressione');
-
-var boxElement = document.createAttribute('Vermelho');
-buttonElement.appendChild(boxElement);
-
-var containerElements = document.querySelector('#app');
-containerElements.appendChild(buttonElement);
-
